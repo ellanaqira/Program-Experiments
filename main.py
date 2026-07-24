@@ -1,3 +1,10 @@
+# Simple program  that i used to see how many openend browser tabs and
+# windows my machine can handle, you can change the number of windows
+# by change the value of MAXWIN and change the number of tabs by modified
+# the MAXTAB value, you can modify the url too by change the URL. This
+# program work by opening the default browser on your computer.
+
+
 import webbrowser
 
 # Constants
