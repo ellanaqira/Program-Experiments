@@ -1,5 +1,5 @@
 
-/* Matrix implementation in C */
+/* 3x3 Matrix implementation in C */
 
 
 #include <stdio.h>
