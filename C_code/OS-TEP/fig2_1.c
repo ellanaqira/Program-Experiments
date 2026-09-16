@@ -1,3 +1,10 @@
+/*
+Simple C program based from Figure 2.1 at "Operating System Three Easy Pieces" book
+by Rezmi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau. This code work by printing
+a character every 1 seccond. This code is to test the CPU to do several work at once.  
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
