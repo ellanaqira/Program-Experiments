@@ -1,7 +1,9 @@
+
 /*
-Simple C program based from Figure 2.1 at "Operating System Three Easy Pieces" book
-by Rezmi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau. This code work by printing
-a character every 1 seccond. This code is to test the CPU to do several work at once.  
+Simple C program based on Figure 2.1 from the book
+"Operating Systems: Three Easy Pieces" by
+Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau.
+This code prints a character every 1 second.
 */
 
 
@@ -33,7 +35,7 @@ int main(int argc, char *argv[]) {
 void delay(int num_of_sec) {
     clock_t start_time = clock();
 
-    while (clock() - start_time < num_of_sec * CLOCKS_PER_SEC) {
+    while (clock() - start_time < num_of_sec CLOCKS_PER_SEC) {
         ;
     }
 }
